@@ -14,7 +14,7 @@ export default function Layout(props: { children: React.ReactNode }) {
       />
       <main className="flex-1">{props.children}</main>
       <Footer
-        builtBy="Patooworld Auth"
+        builtBy="PATOOWORLD, Your Choice, We Adore."
         builtByLink="https://www.patooworld.com/"
         githubLink="https://github.com/officialpatoo/stack"
         twitterLink="https://twitter.com/patooworld"
