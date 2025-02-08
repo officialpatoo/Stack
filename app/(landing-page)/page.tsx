@@ -26,18 +26,18 @@ export default async function IndexPage() {
     <>
       <Hero
         capsuleText="100% Open-source & Free"
-        capsuleLink="https://stacktemplate.com"
-        title="A Multi-tenant Next.js Starter Template"
-        subtitle="Built for developers, by developers. Next.js + Shadcn UI + Stack Auth."
+        capsuleLink="https://github.com/patooworld"
+        title="A Multi-tenant Next.js PATOOWORLD"
+        subtitle="Built for developers, by developers."
         primaryCtaText="Get Started"
         primaryCtaLink={stackServerApp.urls.signUp}
         secondaryCtaText="GitHub"
-        secondaryCtaLink="https://github.com/stack-auth/stack-template"
+        secondaryCtaLink="https://github.com/patooworld"
         credits={
           <>
             Crafted with ❤️ by{" "}
             <a
-              href="https://stack-auth.com"
+              href="https://genai.patooworld.com.com"
               target="_blank"
               rel="noreferrer"
               className="underline"
