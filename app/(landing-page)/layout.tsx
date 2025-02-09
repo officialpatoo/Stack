@@ -18,7 +18,7 @@ export default function Layout(props: { children: React.ReactNode }) {
         builtByLink="https://www.patooworld.com/"
         githubLink="https://github.com/officialpatoo/stack"
         twitterLink="https://twitter.com/patooworld"
-        linkedinLink="linkedin.com/company/patooworld"
+        linkedinLink="https://linkedin.com/company/patooworld"
       />
     </div>
   );
