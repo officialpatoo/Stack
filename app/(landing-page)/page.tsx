@@ -32,12 +32,12 @@ export default async function IndexPage() {
         primaryCtaText="Get Started"
         primaryCtaLink={stackServerApp.urls.signUp}
         secondaryCtaText="Search Here"
-        secondaryCtaLink="https://patooworld.com"
+        secondaryCtaLink="https://www.patooworld.com"
         credits={
           <>
             Your AI-powered Search 🌎 by{"PATOOWORLD "}
             <a
-              href="https://patooworld.com"
+              href="https://www.patooworld.com"
               target="_blank"
               rel="noreferrer"
               className="underline"
