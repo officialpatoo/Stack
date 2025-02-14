@@ -31,13 +31,13 @@ export default async function IndexPage() {
         subtitle="Built for developers, by developers."
         primaryCtaText="Get Started"
         primaryCtaLink={stackServerApp.urls.signUp}
-        secondaryCtaText="GitHub"
-        secondaryCtaLink="https://github.com/patooworld"
+        secondaryCtaText="Search Here"
+        secondaryCtaLink="https://patooworld.com"
         credits={
           <>
-            Crafted with ❤️ by{" "}
+            Your AI-powered Search 🌎 by{"PATOOWORLD "}
             <a
-              href="https://genai.patooworld.com.com"
+              href="https://patooworld.com"
               target="_blank"
               rel="noreferrer"
               className="underline"
