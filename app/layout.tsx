@@ -8,8 +8,8 @@ import { Provider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PATOOWORLD SPACE",
-  description: "A Multi-tenant Next.js Starter Template",
+  title: "PATOOWORLD",
+  description: "A Multi-tenant Next.js Starter App",
 };
 
 export default function RootLayout({
