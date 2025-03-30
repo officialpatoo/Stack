@@ -6,7 +6,7 @@ export default function Layout(props: { children: React.ReactNode }) {
     <div className="flex min-h-screen flex-col">
       <LandingPageHeader
         items={[
-          { title: "Home", href: "https://genai.patooworld.com/" },
+          { title: "Home", href: "/" },
           { title: "Features", href: "/#features" },
           { title: "Pricing", href: "/#pricing" },
           { title: "Github", href: "https://github.com/patooworld", external: true },
@@ -15,10 +15,10 @@ export default function Layout(props: { children: React.ReactNode }) {
       <main className="flex-1">{props.children}</main>
       <Footer
         builtBy="PATOOWORLD, Your Choice, We Adore."
-        builtByLink="https://www.patooworld.com/"
-        githubLink="https://github.com/officialpatoo/stack"
+        builtByLink="/"
+        githubLink="https://github.com/patooworld/"
         twitterLink="https://twitter.com/patooworld"
-        linkedinLink="https://linkedin.com/company/patooworld"
+        linkedinLink="https://linkedin.com/in/patooworld"
       />
     </div>
   );
