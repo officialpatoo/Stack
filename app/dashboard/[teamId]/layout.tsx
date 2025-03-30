@@ -8,7 +8,7 @@ import { useParams, useRouter } from "next/navigation";
 const navigationItems: SidebarItem[] = [
   {
     name: "Search Overview",
-    href: "https://patooworld.com",
+    href: "/",
     icon: Globe,
     type: "item",
   },
