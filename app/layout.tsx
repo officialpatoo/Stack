@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PATOOWORLD",
-  description: "A Multi-tenant Next.js Starter App",
+  description: "A Multi-tenant AI-Powered App",
 };
 
 export default function RootLayout({
