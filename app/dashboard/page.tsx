@@ -1,7 +1,7 @@
 import { PageClient } from "./page-client";
 
 export const metadata = {
-  title: "Dashboard - Stack Template",
+  title: "Dashboard - PATOOWORLD",
 };
 
 export default function Dashboard() {
