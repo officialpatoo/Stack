@@ -27,12 +27,12 @@ export default async function IndexPage() {
       <Hero
         capsuleText="100% Open-source & Free"
         capsuleLink="https://github.com/patooworld"
-        title="A Multi-tenant AI-powered App"
-        subtitle="Built for developers, by developers."
+        title="A Multi-Model AI-powered App"
+        subtitle="Built for good and for All, by developers."
         primaryCtaText="Get Started"
         primaryCtaLink={stackServerApp.urls.signUp}
         secondaryCtaText="Search"
-        secondaryCtaLink="https://atolog.com"
+        secondaryCtaLink="https://search.patooworld.com"
         credits={
           <>
             Your AI-powered Search By {"PATOOWORLD "}
@@ -42,7 +42,7 @@ export default async function IndexPage() {
               rel="noreferrer"
               className="underline"
             >
-              PATOOWORLD Stack Auth
+              Stack Auth
             </a>
           </>
         }
@@ -118,8 +118,8 @@ export default async function IndexPage() {
           },
           {
             icon: <Users className="h-12 w-12" />,
-            title: "Multi-tenancy & RBAC",
-            description: "Built-in Teams and Permissions.",
+            title: "Multi-model & AI-powered Search",
+            description: "Search and Save image search contents for your online posts.",
           },
           {
             icon: <GitHubLogoIcon className="h-12 w-12" />,
