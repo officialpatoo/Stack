@@ -26,13 +26,13 @@ export default async function IndexPage() {
     <>
       <Hero
         capsuleText="100% Open-source & Free"
-        capsuleLink="https://github.com/patooworld"
+        capsuleLink="https://github.com/officialpatoo/Stack"
         title="A Multi-Model AI-powered App"
         subtitle="Built for good and for All, by developers."
         primaryCtaText="Get Started"
         primaryCtaLink={stackServerApp.urls.signUp}
         secondaryCtaText="Search"
-        secondaryCtaLink="https://search.patooworld.com"
+        secondaryCtaLink="https://www.patooworld.com"
         credits={
           <>
             Your AI-powered Search By {"PATOOWORLD "}
@@ -42,7 +42,7 @@ export default async function IndexPage() {
               rel="noreferrer"
               className="underline"
             >
-              Stack Auth
+              Stack
             </a>
           </>
         }
